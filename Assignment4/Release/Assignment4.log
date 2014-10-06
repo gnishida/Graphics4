@@ -1,0 +1,171 @@
+﻿Build started 10/26/2013 4:04:05 PM.
+     1>Project "C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Assignment4\Assignment4.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Assignment4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ilibraries\include\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Box.cpp FrameBuffer.cpp MainWindow.cpp PPC.cpp Projector.cpp Quad.cpp Scene.cpp SkyBox.cpp Sphere.cpp TMesh.cpp Texture.cpp Triangle.cpp gui.cxx
+         Box.cpp
+         FrameBuffer.cpp
+     1>FrameBuffer.cpp(328): warning C4018: '<' : signed/unsigned mismatch
+     1>FrameBuffer.cpp(505): warning C4018: '<' : signed/unsigned mismatch
+     1>FrameBuffer.cpp(601): warning C4018: '<' : signed/unsigned mismatch
+     1>FrameBuffer.cpp(688): warning C4018: '<' : signed/unsigned mismatch
+         MainWindow.cpp
+         PPC.cpp
+         Projector.cpp
+     1>Projector.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>Projector.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>Projector.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>Projector.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>Projector.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+     1>Projector.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+     1>Projector.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>Projector.cpp(99): warning C4018: '<' : signed/unsigned mismatch
+         Quad.cpp
+         Scene.cpp
+     1>Scene.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(135): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(206): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(214): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Scene.cpp(222): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Scene.cpp(229): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Scene.cpp(247): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(253): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Scene.cpp(261): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Scene.cpp(268): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Scene.cpp(320): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(342): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(398): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(405): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Scene.cpp(414): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Scene.cpp(420): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(437): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(510): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(521): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(535): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(544): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(553): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(562): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(572): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(581): warning C4018: '<' : signed/unsigned mismatch
+     1>Scene.cpp(606): warning C4018: '<' : signed/unsigned mismatch
+         SkyBox.cpp
+         Sphere.cpp
+     1>Sphere.cpp(12): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Sphere.cpp(15): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Sphere.cpp(15): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Sphere.cpp(16): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Sphere.cpp(16): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         TMesh.cpp
+         Texture.cpp
+     1>Texture.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>Texture.cpp(116): warning C4018: '>=' : signed/unsigned mismatch
+     1>Texture.cpp(118): warning C4018: '>=' : signed/unsigned mismatch
+         Triangle.cpp
+         gui.cxx
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\Assignment4.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:libraries\lib\ cg.lib cgGL.lib tiff.lib fltk.lib fltkgl.lib opengl32.lib glu32.lib wsock32.lib comctl32.lib libtiff.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Assignment4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\Assignment4.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\Assignment4.lib" /MACHINE:X86 Release\Box.obj
+         Release\CubeMap.obj
+         Release\FrameBuffer.obj
+         Release\MainWindow.obj
+         Release\gui.obj
+         Release\Light.obj
+         Release\M33.obj
+         Release\PPC.obj
+         Release\Projector.obj
+         Release\Quad.obj
+         Release\Scene.obj
+         Release\SkyBox.obj
+         Release\Sphere.obj
+         Release\Texture.obj
+         Release\TIFFImage.obj
+         Release\TMesh.obj
+         Release\Triangle.obj
+         Release\V3.obj
+         Generating code
+         Finished generating code
+     1>fltk.lib(case.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(case.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(filename_list.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(filename_list.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(filename_match.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(filename_match.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_abort.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_abort.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_arc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_arc.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_arci.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_arci.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_ask.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_ask.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Bitmap.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Bitmap.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Box.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Box.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_boxtype.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_boxtype.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Button.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Button.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_color.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_color.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_compose.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_compose.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_cursor.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_cursor.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_curve.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_curve.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Device.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Device.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_dnd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_dnd.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Double_Window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Double_Window.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_draw.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_draw.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_draw_image.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_draw_image.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_draw_pixmap.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_draw_pixmap.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_font.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_font.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_get_system_colors.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_get_system_colors.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_grab.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_grab.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Group.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Group.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_gtk.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_gtk.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Image.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Image.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Input.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Input.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Input_.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Input_.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_labeltype.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_labeltype.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_line_style.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_line_style.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_lock.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_lock.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Menu_Window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Menu_Window.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Native_File_Chooser.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Native_File_Chooser.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Paged_Device.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Paged_Device.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Pixmap.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Pixmap.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_plastic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_plastic.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Preferences.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Preferences.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Printer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Printer.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_read_image.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_read_image.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_rect.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_rect.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Return_Button.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Return_Button.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_round_box.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_round_box.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_shortcut.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_shortcut.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Single_Window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Single_Window.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_symbols.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_symbols.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Tiled_Image.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Tiled_Image.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Tooltip.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Tooltip.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_utf.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_utf.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_utf8.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_utf8.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(fl_vertex.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(fl_vertex.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Widget.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Widget.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Window.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(Fl_Window_hotspot.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(Fl_Window_hotspot.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(flstring.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(flstring.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(is_spacing.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(is_spacing.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(numericsort.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(numericsort.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(ps_image.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(ps_image.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(scandir.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(scandir.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(screen_xywh.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(screen_xywh.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltk.lib(vsnprintf.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltk.lib(vsnprintf.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltkgl.lib(Fl_Gl_Choice.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltkgl.lib(Fl_Gl_Choice.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltkgl.lib(Fl_Gl_Device_Plugin.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltkgl.lib(Fl_Gl_Device_Plugin.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltkgl.lib(Fl_Gl_Window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltkgl.lib(Fl_Gl_Window.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+     1>fltkgl.lib(gl_draw.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'fltkgl.lib(gl_draw.obj)' or at 'C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\vc100.pdb'; linking object as if no debug info
+         Assignment4.vcxproj -> C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\Assignment4.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Release\Assignment4.exe;#1" /manifest Release\Assignment4.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Assignment4.unsuccessfulbuild".
+         Touching "Release\Assignment4.lastbuildstate".
+     1>Done Building Project "C:\Users\gen\Documents\school\Purdue\courses\CS535_Graphics\Assignment4\project\Assignment4\Assignment4\Assignment4.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.10

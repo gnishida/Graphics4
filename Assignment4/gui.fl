@@ -1,0 +1,68 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0108 
+header_name {.h} 
+code_name {.cxx}
+class GUI {open
+} {
+  decl {\#include "scene.h"} {}
+  Function {GUI()} {open
+  } {
+    Fl_Window uiw {
+      label GUI open
+      xywh {742 287 351 326} type Double visible
+    } {
+      Fl_Group {} {
+        label {Projective Texture Mapping & Shadow Mapping} open
+        xywh {5 23 335 124} box DOWN_BOX color 16 selection_color 8 labelfont 1 labelcolor 4
+      } {
+        Fl_Button {} {
+          label Demo
+          callback {Demo_cb()}
+          xywh {56 35 225 40} labelfont 1
+        }
+        Fl_Button {} {
+          label Save
+          callback {Save_cb()}
+          xywh {56 89 225 40} labelfont 1
+        }
+      }
+      Fl_Group {} {
+        label {Moving Projector} open selected
+        xywh {5 190 335 125} box DOWN_BOX color 16 labelfont 1 labelcolor 4
+      } {
+        Fl_Button {} {
+          label Demo
+          callback {ProjectorDemo_cb()}
+          xywh {56 203 225 40} labelfont 1
+        }
+        Fl_Button {} {
+          label Save
+          callback {SaveProjector_cb()}
+          xywh {56 258 225 40} labelfont 1
+        }
+      }
+    }
+  }
+  Function {} {} {
+    code {scene = new Scene;} {}
+  }
+  Function {show()} {} {
+    code {uiw->show();} {}
+  }
+  Function {Demo_cb()} {open
+  } {
+    code {scene->Demo();} {}
+  }
+  Function {Save_cb()} {open
+  } {
+    code {scene->Save();} {}
+  }
+  Function {ProjectorDemo_cb()} {open
+  } {
+    code {scene->ProjectorDemo();} {}
+  }
+  Function {SaveProjector_cb()} {open
+  } {
+    code {scene->SaveProjector();} {}
+  }
+} 
